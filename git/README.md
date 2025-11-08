@@ -13,28 +13,28 @@ Selamat datang di materi pembelajaran Git dasar! Materi ini disusun secara berur
 - Git vs GitHub
 - Workflow dasar Git
 
-### 2️⃣ [Instalasi dan Konfigurasi](02-instalasi-konfigurasi.md)
+### 2. [Instalasi dan Konfigurasi](02-instalasi-konfigurasi.md)
 - Instalasi Git di Windows, macOS, dan Linux
 - Konfigurasi awal (username, email, editor)
 - Level konfigurasi (system, global, local)
 - Setup SSH key untuk GitHub/GitLab
 - Alias dan konfigurasi berguna lainnya
 
-### 3️⃣ [Membuat Repository](03-membuat-repository.md)
+### 3. [Membuat Repository](03-membuat-repository.md)
 - Membuat repository baru dengan `git init`
 - Menyalin repository dengan `git clone`
 - Struktur folder `.git`
 - Menghubungkan repository lokal ke remote
 - Best practices
 
-### 4️⃣ [Basic Workflow Git](04-basic-workflow.md)
+### 4. [Basic Workflow Git](04-basic-workflow.md)
 - Siklus dasar Git (Working Directory → Staging → Repository)
 - Command: `git status`, `git add`, `git commit`
 - Status file di Git
 - Best practices commit message
 - `git diff`, `git rm`, `git mv`
 
-### 5️⃣ [Melihat History](05-melihat-history.md)
+### 5. [Melihat History](05-melihat-history.md)
 - Command: `git log` dengan berbagai format
 - `git show` untuk detail commit
 - `git log` dengan filtering
@@ -42,7 +42,7 @@ Selamat datang di materi pembelajaran Git dasar! Materi ini disusun secara berur
 - `git reflog` untuk recovery
 - Custom format dan alias
 
-### 6️⃣ [Bekerja dengan Branch](06-bekerja-dengan-branch.md)
+### 6. [Bekerja dengan Branch](06-bekerja-dengan-branch.md)
 - Apa itu branch dan mengapa penting?
 - Membuat, melihat, dan menghapus branch
 - Pindah antar branch
@@ -50,7 +50,7 @@ Selamat datang di materi pembelajaran Git dasar! Materi ini disusun secara berur
 - Branch naming conventions
 - Workflow branch yang umum
 
-### 7️⃣ [Merging Branches](07-merging-branches.md)
+### 7. [Merging Branches](07-merging-branches.md)
 - Apa itu merge?
 - Fast-forward vs Three-way merge
 - Menangani merge conflict
@@ -59,7 +59,7 @@ Selamat datang di materi pembelajaran Git dasar! Materi ini disusun secara berur
 - Merge vs Rebase
 - Undo merge
 
-### 8️⃣ [Remote Repository](08-remote-repository.md)
+### 8. [Remote Repository](08-remote-repository.md)
 - Apa itu remote repository?
 - Platform: GitHub, GitLab, Bitbucket
 - Command: `git remote`, `git clone`, `git push`, `git pull`, `git fetch`
@@ -68,7 +68,7 @@ Selamat datang di materi pembelajaran Git dasar! Materi ini disusun secara berur
 - Tracking branches
 - Best practices
 
-### 9️⃣ [Membatalkan Perubahan](09-membatalkan-perubahan.md)
+### 9. [Membatalkan Perubahan](09-membatalkan-perubahan.md)
 - Membatalkan perubahan di working directory (`git restore`)
 - Unstaging file (`git restore --staged`)
 - Membatalkan commit (`git reset`, `git revert`)
@@ -77,7 +77,7 @@ Selamat datang di materi pembelajaran Git dasar! Materi ini disusun secara berur
 - `git reflog` untuk recovery
 - `git clean` untuk hapus untracked files
 
-### 🔟 [Git Ignore](10-gitignore.md)
+### 10. [Git Ignore](10-gitignore.md)
 - Apa itu `.gitignore` dan mengapa penting?
 - Syntax `.gitignore`
 - Contoh `.gitignore` untuk berbagai project (Node.js, Python, Java, PHP, React)
@@ -88,7 +88,7 @@ Selamat datang di materi pembelajaran Git dasar! Materi ini disusun secara berur
 
 ---
 
-## 🎯 Cara Menggunakan Materi Ini
+## Cara Menggunakan Materi Ini
 
 ### Untuk Pemula:
 1. **Baca berurutan** dari materi 1 hingga 10
@@ -103,7 +103,7 @@ Selamat datang di materi pembelajaran Git dasar! Materi ini disusun secara berur
 
 ---
 
-## 💡 Tips Belajar Git
+## Tips Belajar Git
 
 1. **Practice, practice, practice!** 
    - Git adalah skill yang harus dipraktekkan
@@ -127,7 +127,7 @@ Selamat datang di materi pembelajaran Git dasar! Materi ini disusun secara berur
 
 ---
 
-## 🔧 Command Git yang Paling Sering Digunakan
+## Command Git yang Paling Sering Digunakan
 
 ```bash
 # Setup
@@ -168,7 +168,7 @@ git revert <commit>               # Revert commit (safe)
 
 ---
 
-## 📚 Resources Tambahan
+## Resources Tambahan
 
 ### Dokumentasi Official
 - [Git Official Docs](https://git-scm.com/doc)
@@ -190,7 +190,7 @@ git revert <commit>               # Revert commit (safe)
 
 ---
 
-## ❓ Butuh Bantuan?
+## Butuh Bantuan?
 
 Jika menemui kesulitan:
 
@@ -202,21 +202,21 @@ Jika menemui kesulitan:
 
 ---
 
-## 🎉 Selamat Belajar!
+## Selamat Belajar!
 
 Git adalah skill yang sangat penting untuk developer. Dengan menguasai Git, Anda akan:
 
-- ✅ Lebih terorganisir dalam coding
-- ✅ Bisa berkolaborasi dengan tim
-- ✅ Lebih percaya diri dalam mengembangkan fitur baru
-- ✅ Bisa kontribusi ke open source projects
-- ✅ Memiliki backup otomatis untuk kode Anda
+- Lebih terorganisir dalam coding
+- Bisa berkolaborasi dengan tim
+- Lebih percaya diri dalam mengembangkan fitur baru
+- Bisa kontribusi ke open source projects
+- Memiliki backup otomatis untuk kode Anda
 
-**Happy Learning! 🚀**
+**Happy Learning!**
 
 ---
 
-## 📝 Progress Tracking
+## Progress Tracking
 
 - [ ] 1. Pengenalan Git
 - [ ] 2. Instalasi dan Konfigurasi
@@ -231,5 +231,5 @@ Git adalah skill yang sangat penting untuk developer. Dengan menguasai Git, Anda
 
 ---
 
-*Materi ini dibuat dengan ❤️ untuk membantu Anda belajar Git dari dasar hingga mahir.*
+*Materi ini dibuat untuk membantu Anda belajar Git dari dasar hingga mahir.*
 
